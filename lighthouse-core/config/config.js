@@ -247,6 +247,9 @@ function expandArtifacts(artifacts) {
 }
 
 /**
+ * Creates a settings object from potential flags object by dropping all the properties
+ * that don't exist on Config.Settings.
+ *
  * @param {LH.Flags=} flags
  * @return {Partial<LH.Config.Settings>}
  */
